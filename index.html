@@ -32,7 +32,7 @@
   </head>
   <body class="font-poppins">
     <!-- Navbar section -->
-    <nav class="mx-4">
+    <nav class="mx-4 my-5">
       <div class="container mx-auto">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -70,11 +70,21 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu-horizontal px-1 gap-9">
-              <li class="text-[#FF4240]"><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
+              <li class="text-[#FF4240]"><a href="#">Home</a></li>
+              <li>
+                <a href="#" class="hover:text-[#FF4240] duration-200">About</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FF4240] duration-200">Pages</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FF4240] duration-200">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#FF4240] duration-200"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
           <div class="navbar-end">
@@ -102,20 +112,36 @@
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-[#FF4240] border-none text-white hover:bg-[#d0504e] duration-200"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-[#FF4240] border-none text-white hover:bg-[#d0504e] duration-200"
+                >❯</a
+              >
             </div>
           </div>
 
           <div id="slide2" class="carousel-item relative w-full">
             <div class="w-full">
-              <img src="Images/1.png" class="w-full" />
+              <img src="Images/slide.png" class="w-full" />
             </div>
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-[#FF4240] border-none text-white hover:bg-[#d0504e] duration-200"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-[#FF4240] border-none text-white hover:bg-[#d0504e] duration-200"
+                >❯</a
+              >
             </div>
           </div>
           <div
@@ -541,11 +567,11 @@
           <div class="w-full">
             <div class="collapse collapse-plus border-b-2">
               <input type="radio" name="my-accordion-3" checked="checked" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-lg lg:text-xl font-medium">
                 Our Equipment
               </div>
               <div class="collapse-content">
-                <p>
+                <p class="text-gray-500">
                   The most common question from clients is the quality of the
                   equipment we use. We usually use top quality products
                 </p>
@@ -553,11 +579,11 @@
             </div>
             <div class="collapse collapse-plus border-b-2">
               <input type="radio" name="my-accordion-3" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-lg lg:text-xl font-medium">
                 Hockey Training
               </div>
               <div class="collapse-content">
-                <p>
+                <p class="text-gray-500">
                   We are trained by the best coaches in the country. Which helps
                   to improve your playing skills
                 </p>
@@ -565,11 +591,11 @@
             </div>
             <div class="collapse collapse-plus border-b-2">
               <input type="radio" name="my-accordion-3" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-lg lg:text-xl font-medium">
                 Private Lessons
               </div>
               <div class="collapse-content">
-                <p>
+                <p class="text-gray-500">
                   We give private lessons to our players which help them to
                   improve more. And helps them become more skilled
                 </p>
@@ -577,9 +603,11 @@
             </div>
             <div class="collapse collapse-plus border-b-2">
               <input type="radio" name="my-accordion-3" />
-              <div class="collapse-title text-xl font-medium">Ski Touring</div>
+              <div class="collapse-title text-lg lg:text-xl font-medium">
+                Ski Touring
+              </div>
               <div class="collapse-content">
-                <p>
+                <p class="text-gray-500">
                   We organize a tour every year with our club players. Which
                   gives a refreshment to their mind
                 </p>
@@ -587,9 +615,11 @@
             </div>
             <div class="collapse collapse-plus border-b-2">
               <input type="radio" name="my-accordion-3" />
-              <div class="collapse-title text-xl font-medium">Booking</div>
+              <div class="collapse-title text-lg lg:text-xl font-medium">
+                Booking
+              </div>
               <div class="collapse-content">
-                <p>
+                <p class="text-gray-500">
                   There is a time slot fixed for the booking. The date on which
                   the booking should be made can be done by visiting our website
                 </p>
@@ -597,9 +627,13 @@
             </div>
             <div class="collapse collapse-plus border-b-2">
               <input type="radio" name="my-accordion-3" />
-              <div class="collapse-title text-xl font-medium">Pricings</div>
+              <div class="collapse-title text-lg lg:text-xl font-medium">
+                Pricings
+              </div>
               <div class="collapse-content">
-                <p>You can get the pricing by visiting our website</p>
+                <p class="text-gray-500">
+                  You can get the pricing by visiting our website
+                </p>
               </div>
             </div>
           </div>
@@ -641,70 +675,72 @@
               <h3 class="font-bold text-lg">152/1 Mohakhali Wireless Gate</h3>
             </div>
           </div>
-          <div class="w-full">
-            <div class="flex flex-col lg:flex-row gap-6 pb-6">
-              <div class="w-full">
-                <p class="pb-4 font-medium text-xl">Your Name</p>
-                <input
-                  type="text"
-                  class="bg-[#13131808] p-5 rounded-lg w-full"
-                  required
-                  placeholder="Enter your full Name"
-                />
+          <form action="">
+            <div class="w-full">
+              <div class="flex flex-col lg:flex-row gap-6 pb-6">
+                <div class="w-full">
+                  <p class="pb-4 font-medium text-lg lg:text-xl">Your Name</p>
+                  <input
+                    type="text"
+                    class="bg-[#13131808] p-5 rounded-lg text-sm lg:text-base w-full focus:outline-none"
+                    required
+                    placeholder="Enter your full Name"
+                  />
+                </div>
+                <div class="w-full">
+                  <p class="pb-4 font-medium text-lg lg:text-xl">Your Email</p>
+                  <input
+                    type="email"
+                    class="bg-[#13131808] p-5 rounded-lg text-sm lg:text-base w-full focus:outline-none"
+                    required
+                    placeholder="Enter your Email"
+                  />
+                </div>
               </div>
-              <div class="w-full">
-                <p class="pb-4 font-medium text-xl">Your Email</p>
-                <input
-                  type="email"
-                  class="bg-[#13131808] p-5 rounded-lg w-full"
-                  required
-                  placeholder="Enter your Email"
-                />
+              <div class="flex flex-col lg:flex-row gap-6 pb-6 w-full">
+                <div class="w-full">
+                  <p class="pb-4 font-medium text-lg lg:text-xl">Subject</p>
+                  <input
+                    type="text"
+                    class="bg-[#13131808] p-5 rounded-lg text-sm lg:text-base w-full focus:outline-none"
+                    required
+                    placeholder="Enter your Subject"
+                  />
+                </div>
+                <div class="w-full">
+                  <p class="pb-4 font-medium text-lg lg:text-xl">Your Phone</p>
+                  <input
+                    type="text"
+                    class="bg-[#13131808] p-5 rounded-lg text-sm lg:text-base w-full focus:outline-none"
+                    required
+                    placeholder="Enter your Phone Number"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="flex flex-col lg:flex-row gap-6 pb-6 w-full">
-              <div class="w-full">
-                <p class="pb-4 font-medium text-xl">Subject</p>
-                <input
-                  type="text"
-                  class="bg-[#13131808] p-5 rounded-lg w-full"
-                  required
-                  placeholder="Enter your Subject"
-                />
-              </div>
-              <div class="w-full">
-                <p class="pb-4 font-medium text-xl">Your Phone</p>
-                <input
-                  type="text"
-                  class="bg-[#13131808] p-5 rounded-lg w-full"
-                  required
-                  placeholder="Enter your Phone Number"
-                />
-              </div>
-            </div>
 
-            <div class="">
-              <p class="pb-4 font-medium text-xl">Message</p>
-              <textarea
-                class="bg-[#13131808] w-full p-5 rounded-lg"
-                name=""
-                id=""
-                cols="80"
-                rows="12"
-                placeholder="Write your message"
-              ></textarea>
+              <div class="">
+                <p class="pb-4 font-medium text-lg lg:text-xl">Message</p>
+                <textarea
+                  class="bg-[#13131808] w-full p-5 text-sm lg:text-base rounded-lg focus:outline-none"
+                  name=""
+                  id=""
+                  cols="80"
+                  rows="12"
+                  placeholder="Write your message"
+                ></textarea>
+              </div>
+              <button
+                class="bg-[#FF4240] hover:bg-[#d0504e] duration-300 w-full p-4 rounded-xl text-white font-medium mt-5 text-md"
+              >
+                Send Message
+              </button>
             </div>
-            <button
-              class="bg-[#FF4240] w-full p-4 rounded-xl text-white font-medium mt-5 text-md"
-            >
-              Send Message
-            </button>
-          </div>
+          </form>
         </div>
       </div>
 
       <!-- Social Media section -->
-      <div class="bg-[#13131808] mx-6">
+      <div class="bg-[#13131808] rounded-xl mx-6">
         <div class="text-center py-9">
           <h1 class="font-bold text-xl lg:text-2xl pb-5">Social Media</h1>
           <div class="text-xl lg:text-2xl">
